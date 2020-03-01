@@ -2,8 +2,7 @@ const express = require('express');
 const homeRouter = express.Router();
 
 const Product = require("./../models/product");
-const User = require ("./../models/user");
-const Order = require("./../models/order");
+
 
 /* GET home page. */
 homeRouter.get('/', function(req, res, next) {
